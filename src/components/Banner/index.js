@@ -4,8 +4,9 @@ import config from "/config.json";
 
 const StyledBanner = styled.header`
   padding: 50px;
-  background-color: #ffffff;
-
+  background-color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
