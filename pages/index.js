@@ -1,4 +1,5 @@
 import Banner from "../src/components/Banner";
+import Card from "../src/components/Card";
 import Menu from "../src/components/Menu";
 import Separador from "../src/components/Separador";
 import Sobre from "../src/components/Sobre";
@@ -11,6 +12,7 @@ function HomePage() {
       <Separador text="Sobre mim" />
       <Sobre />
       <Separador text="Projetos" />
+      <Card />
       <Separador text="Conhecimento e experiência" />
 
       <div>
