@@ -1,5 +1,6 @@
 import Banner from "../src/components/Banner";
 import Card from "../src/components/Card";
+import Conhecimento from "../src/components/Conhecimento";
 import Menu from "../src/components/Menu";
 import Separador from "../src/components/Separador";
 import Sobre from "../src/components/Sobre";
@@ -11,20 +12,10 @@ function HomePage() {
       <Banner />
       <Separador text="Sobre mim" />
       <Sobre />
+      <Separador text="Conhecimento e experiência" />
+      <Conhecimento />
       <Separador text="Projetos" />
       <Card />
-      <Separador text="Conhecimento e experiência" />
-
-      <div>
-        Ícones feitos por{" "}
-        <a href="https://www.freepik.com" title="Freepik">
-          Freepik
-        </a>{" "}
-        from{" "}
-        <a href="https://www.flaticon.com/br/" title="Flaticon">
-          www.flaticon.com
-        </a>
-      </div>
     </>
   );
 }
