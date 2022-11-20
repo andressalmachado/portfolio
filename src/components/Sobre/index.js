@@ -10,7 +10,8 @@ const StyledSobre = styled.section`
   padding: 40px 30px;
   text-align: justify;
   p {
-    line-height: 30px;
+    line-height: 40px;
+    font-size: 20px;
   }
 `;
 function Sobre() {
