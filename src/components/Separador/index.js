@@ -8,7 +8,7 @@ const StyledSeparador = styled.fieldset`
   color: #000;
   letter-spacing: 3px;
   font-weight: 600;
-  margin: 0 100px;
+  margin: 40px 100px;
 
   legend {
     padding: 25px 50px;

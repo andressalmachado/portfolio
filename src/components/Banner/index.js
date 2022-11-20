@@ -43,6 +43,7 @@ function Banner() {
         <h2>{config.job}</h2>
         <RedesSociais />
       </div>
+
       <img src="/imagens/temp.jpg" />
     </StyledBanner>
   );

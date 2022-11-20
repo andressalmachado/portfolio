@@ -10,7 +10,7 @@ export const CSSReset = createGlobalStyle`
   }
   body {
     font-family: "Inter", sans-serif;
-    background-color: #F9F9F9;
+    background-color: #fff;
   }
   ol, ul {
     list-style: none;
