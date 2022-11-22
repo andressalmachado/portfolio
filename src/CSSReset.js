@@ -36,7 +36,7 @@ export const CSSReset = createGlobalStyle`
     transition: .3s;
     &:hover,
     &:focus {
-      opacity: .5;
+      opacity: .7;
     }
   }
 `;

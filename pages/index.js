@@ -10,11 +10,11 @@ function HomePage() {
     <>
       <Menu />
       <Banner />
-      <Separador text="Sobre mim" />
-      <Sobre />
       <Separador text="Conhecimento e experiência" />
       <Conhecimento />
-      <Separador text="Projetos" />
+      <Separador text="Sobre mim" id="sobre" />
+      <Sobre />
+      <Separador text="Projetos" id="projetos" />
       <Card />
     </>
   );
