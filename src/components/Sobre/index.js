@@ -14,6 +14,17 @@ const StyledSobre = styled.section`
     line-height: 40px;
     font-size: 20px;
   }
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 480px) {
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 function Sobre() {
   return (

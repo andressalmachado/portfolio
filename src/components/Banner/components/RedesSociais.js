@@ -8,7 +8,30 @@ const StyledSection = styled.section`
     cursor: pointer;
 
     img {
-      height: 50px;
+      transition: 0.5s;
+      height: 65px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  @media (max-width: 1280px) {
+    ul {
+      img {
+        height: 50px;
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    ul {
+      img {
+        height: 40px;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    ul {
+      margin-top: 20px;
+      justify-content: center;
     }
   }
 `;

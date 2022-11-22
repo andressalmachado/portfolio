@@ -38,6 +38,18 @@ const StyledItem = styled.li`
     transform: translateY(-10px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
   }
+
+  @media (max-width: 768px) {
+    width: 300px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 
 function Card() {

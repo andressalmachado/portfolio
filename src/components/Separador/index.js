@@ -14,11 +14,33 @@ const StyledSeparador = styled.fieldset`
     padding: 25px 50px;
     font-size: 24px;
   }
+
+  @media (max-width: 1024px) {
+    legend {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 900px) {
+    legend {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 480px) {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 20px 10px;
+
+    legend {
+      padding: 10px 20px;
+
+      font-size: 16px;
+    }
+  }
 `;
 
 const Separador = (props) => {
   return (
-    <StyledSeparador>
+    <StyledSeparador id={props.id}>
       <legend>{props.text}</legend>
     </StyledSeparador>
   );

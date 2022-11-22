@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 const StyledMenu = styled.nav`
-  position: fixed;
   width: 100%;
-  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #b370b0;
   font-size: 20px;
+  z-index: 1;
+  background-color: #695c85;
 
   img {
     max-width: 30%;
@@ -20,12 +19,27 @@ const StyledMenu = styled.nav`
     display: flex;
     justify-content: center;
     gap: 50px;
-    color: #222222;
   }
 
   a {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+    height: 50px;
+
+    img {
+      width: 100px;
+    }
+    ul {
+      gap: 30px;
+    }
   }
 `;
 
@@ -37,10 +51,10 @@ function Menu() {
       </a>
       <ul>
         <li>
-          <a href="/">Sobre</a>
+          <a href="#sobre">Sobre</a>
         </li>
         <li>
-          <a href="/">Projetos</a>
+          <a href="#projetos">Projetos</a>
         </li>
         <li>
           <a href="/">Blog</a>
