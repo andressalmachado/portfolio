@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.section`
   padding: 0px 100px;
+  margin: 60px 0;
 
   div {
     display: flex;
@@ -9,9 +10,9 @@ const StyledDiv = styled.section`
     justify-content: space;
 
     img {
-      height: 90px;
+      height: 55px;
       margin: 5px 15px;
-      border-radius: 20px;
+      border-radius: 4px;
     }
   }
 `;

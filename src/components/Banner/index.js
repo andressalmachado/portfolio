@@ -2,6 +2,12 @@ import styled from "styled-components";
 import RedesSociais from "./components/RedesSociais";
 import config from "/config.json";
 
+// #C3C3E6
+// #D1C8E1
+// #BBA0CA
+// #B370B0
+// #87255B
+
 const StyledBanner = styled.header`
   padding: 50px;
   max-width: 90%;
@@ -9,6 +15,7 @@ const StyledBanner = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 
   div {
     p {
@@ -19,11 +26,12 @@ const StyledBanner = styled.header`
       font-family: "Koulen";
       text-transform: uppercase;
       margin-top: 20px;
-      color: #502955;
+      color: #87255b;
       letter-spacing: 0.06em;
     }
     h2 {
       font-size: 20px;
+      color: #222222;
     }
   }
 

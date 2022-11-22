@@ -4,10 +4,11 @@ import config from "/config.json";
 const StyledSobre = styled.section`
   background-color: #fff;
   max-width: 90%;
-  margin: 0 auto;
-  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+  margin: 0 auto 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
   border-radius: 20px;
-  padding: 40px 30px;
+  padding: 30px 40px;
   text-align: justify;
   p {
     line-height: 40px;
