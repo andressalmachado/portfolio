@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 const StyledMenu = styled.nav`
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #f0f0f0;
+  background-color: #b370b0;
   font-size: 20px;
 
   img {
@@ -17,6 +20,7 @@ const StyledMenu = styled.nav`
     display: flex;
     justify-content: center;
     gap: 50px;
+    color: #222222;
   }
 
   a {
