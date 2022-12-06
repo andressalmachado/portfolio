@@ -11,7 +11,7 @@ export const CSSReset = createGlobalStyle`
   body {
     font-family: "Inter", sans-serif;
     background-color: #fff;
-  }
+    }
   ol, ul {
     list-style: none;
   }
@@ -32,6 +32,7 @@ export const CSSReset = createGlobalStyle`
   button,
   a {
     text-decoration: none;
+    color: inherit;
     opacity: 1;
     transition: .3s;
     &:hover,
@@ -39,4 +40,6 @@ export const CSSReset = createGlobalStyle`
       opacity: .7;
     }
   }
+  
+
 `;
