@@ -66,8 +66,10 @@ function Card() {
       {repositories.map((item) => {
         return (
           <StyledItem key={item.name}>
-            <h2>{item.name}</h2>
-            <p>{item.description}</p>
+            <a href={item.html_url} target="_blank">
+              <h2>{item.name}</h2>
+              <p>{item.description}</p>
+            </a>
           </StyledItem>
         );
       })}
