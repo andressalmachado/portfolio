@@ -13,12 +13,13 @@
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- ``ReactJS``
+- ``Prototipagem no Figma``
 - ``ReactJS``
 - ``Styled-Components``
-- ``Next``
+- ``NextJS``
 - ``Github API``
 - ``Responsividade``
+- ``Deploy na Vercell``
 
 <br>
 
