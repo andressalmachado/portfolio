@@ -43,7 +43,7 @@ const StyledMenu = styled.nav`
   }
 `;
 
-function Menu() {
+const Menu = () => {
   return (
     <StyledMenu>
       <a href="/">
@@ -65,5 +65,5 @@ function Menu() {
       </ul>
     </StyledMenu>
   );
-}
+};
 export default Menu;

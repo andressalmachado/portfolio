@@ -118,7 +118,7 @@ const StyledBanner = styled.header`
   }
 `;
 
-function Banner() {
+const Banner = () => {
   return (
     <StyledBanner>
       <div>
@@ -131,6 +131,6 @@ function Banner() {
       <img src="/imagens/banner.jpg" />
     </StyledBanner>
   );
-}
+};
 
 export default Banner;

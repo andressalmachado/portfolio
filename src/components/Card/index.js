@@ -52,7 +52,7 @@ const StyledItem = styled.li`
   }
 `;
 
-function Card() {
+const Card = () => {
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
@@ -75,6 +75,6 @@ function Card() {
       })}
     </StyledList>
   );
-}
+};
 
 export default Card;

@@ -35,6 +35,7 @@ export const CSSReset = createGlobalStyle`
     color: inherit;
     opacity: 1;
     transition: .3s;
+    cursor: pointer;
     &:hover,
     &:focus {
       opacity: .7;

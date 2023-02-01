@@ -1,9 +1,16 @@
+import Carousel from "react-elastic-carousel";
 import styled from "styled-components";
-import config from "/config.json";
+
+const breakPoints = [
+  { width: 1, itemsToShow: 2 },
+  { width: 550, itemsToShow: 3, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 4 },
+  { width: 1200, itemsToShow: 5 },
+];
 
 const StyledDiv = styled.section`
   padding: 0px 50px;
-  margin: 40px 0;
+  margin: 75px 0;
 
   ul {
     display: flex;
@@ -15,90 +22,29 @@ const StyledDiv = styled.section`
     }
 
     img {
-      height: 50px;
+      height: 30px;
       margin: 15px;
       border-radius: 4px;
+      border: 1px solid black;
     }
   }
 `;
 
-function Conhecimento() {
+const Conhecimento = () => {
   return (
     <StyledDiv>
-      <ul>
-        <li>
-          <a title="ReactJS">
-            <img src={config.imagens.react} />
-          </a>
-        </li>
-        <li>
-          <a title="Next">
-            <img src={config.imagens.next} />
-          </a>
-        </li>
-        <li>
-          <a title="CSS">
-            <img src={config.imagens.css} />
-          </a>
-        </li>
-        <li>
-          <a title="html">
-            <img src={config.imagens.html} />
-          </a>
-        </li>
-        <li>
-          <a title="Javascript">
-            <img src={config.imagens.javascript} />
-          </a>
-        </li>
-        <li>
-          <a title="Sass">
-            <img src={config.imagens.sass} />
-          </a>
-        </li>
-        <li>
-          <a title="Git">
-            <img src={config.imagens.git} />
-          </a>
-        </li>
-        <li>
-          <a title="Github">
-            <img src={config.imagens.github} />
-          </a>
-        </li>
-        <li>
-          <a title="Styled-components">
-            <img src={config.imagens.styled_components} />
-          </a>
-        </li>
-        <li>
-          <a title="Ajax">
-            <img src={config.imagens.ajax} />
-          </a>
-        </li>
-        <li>
-          <a title="MongoDB">
-            <img src={config.imagens.mongodb} />
-          </a>
-        </li>
-        <li>
-          <a>
-            <img src={config.imagens.supabase} />
-          </a>
-        </li>
-        <li>
-          <a title="Kanban">
-            <img src={config.imagens.kanban} />
-          </a>
-        </li>
-        <li>
-          <a title="Scrum">
-            <img src={config.imagens.scrum} />
-          </a>
-        </li>
-      </ul>
+      <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000}>
+        <img src="/imagens/html.png" />
+        <img src="/imagens/css.png" />
+        <img src="/imagens/javascript.png" />
+        <img src="/imagens/reactjs.png" />
+        <img src="/imagens/nextjs.png" />
+        <img src="/imagens/git.png" />
+        <img src="/imagens/styled-components.png" />
+        <img src="/imagens/sass.png" />
+      </Carousel>
     </StyledDiv>
   );
-}
+};
 
 export default Conhecimento;
