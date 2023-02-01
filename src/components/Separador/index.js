@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const StyledSeparador = styled.fieldset`
   border: none;
-  border-top: 1px solid #b370b0;
   display: block;
   text-align: center;
   color: #222222;

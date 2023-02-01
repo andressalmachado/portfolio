@@ -36,7 +36,7 @@ const StyledSection = styled.section`
   }
 `;
 
-function RedesSociais() {
+const RedesSociais = () => {
   return (
     <StyledSection>
       <ul>
@@ -64,5 +64,5 @@ function RedesSociais() {
       </ul>
     </StyledSection>
   );
-}
+};
 export default RedesSociais;

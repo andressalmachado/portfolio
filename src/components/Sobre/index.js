@@ -1,18 +1,30 @@
 import styled from "styled-components";
+import Botao from "../Botao";
 import config from "/config.json";
 
 const StyledSobre = styled.section`
-  background-color: #fff;
-  max-width: 90%;
-  margin: 0 auto 100px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  padding: 40px;
+  margin-top: 100px;
 
-  border-radius: 20px;
-  padding: 30px 40px;
-  text-align: justify;
-  p {
-    line-height: 40px;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  background-color: rgba(105, 92, 133, 0.3);
+
+  img {
+    height: 400px;
+    border-radius: 200px;
+  }
+
+  .detalhes {
+    p {
+      padding: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      text-align: justify;
+    }
   }
 
   @media (max-width: 768px) {
@@ -26,12 +38,16 @@ const StyledSobre = styled.section`
     }
   }
 `;
-function Sobre() {
+const Sobre = () => {
   return (
     <StyledSobre>
-      <p>{config.about}</p>
+      <img src="https://github.com/andressalmachado.png" />
+      <div className="detalhes">
+        <p>{config.about}</p>
+        <Botao>Baixar currículo (PT)</Botao>
+      </div>
     </StyledSobre>
   );
-}
+};
 
 export default Sobre;
