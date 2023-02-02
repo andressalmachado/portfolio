@@ -3,7 +3,6 @@ import Botao from "../Botao";
 import config from "/config.json";
 
 const StyledSobre = styled.section`
-  max-width: 100%;
   padding: 40px;
   margin-top: 100px;
 
@@ -14,7 +13,7 @@ const StyledSobre = styled.section`
   background-color: rgba(105, 92, 133, 0.3);
 
   img {
-    height: 400px;
+    height: 300px;
     border-radius: 200px;
   }
 
@@ -27,14 +26,28 @@ const StyledSobre = styled.section`
     }
   }
 
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+
+    img {
+      height: 200px;
+    }
+  }
+
   @media (max-width: 768px) {
-    p {
-      font-size: 18px;
+    .detalhes {
+      p {
+        font-size: 18px;
+      }
     }
   }
   @media (max-width: 480px) {
-    p {
-      font-size: 16px;
+    .detalhes {
+      p {
+        font-size: 16px;
+      }
     }
   }
 `;
