@@ -1,31 +1,28 @@
-import Carousel from "react-elastic-carousel";
 import styled from "styled-components";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 2 },
-  { width: 550, itemsToShow: 3, itemsToScroll: 2 },
-  { width: 768, itemsToShow: 4 },
-  { width: 1200, itemsToShow: 5 },
-];
-
 const StyledDiv = styled.section`
-  padding: 0px 50px;
-  margin: 75px 0;
+  width: 100vw;
+  /* padding: 0px 50px;
+  margin: 75px 0; */
 
   ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
 
-    a {
+    li {
+      flex: none;
+      scroll-snap-align: start;
       cursor: pointer;
     }
 
     img {
-      height: 30px;
+      height: 100px;
       margin: 15px;
-      border-radius: 4px;
-      border: 1px solid black;
+      border-radius: 24px;
+      box-shadow: 3px 8px 19px -13px rgba(0, 0, 0, 0.75);
     }
   }
 `;
@@ -33,16 +30,32 @@ const StyledDiv = styled.section`
 const Conhecimento = () => {
   return (
     <StyledDiv>
-      <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000}>
-        <img src="/imagens/html.png" />
-        <img src="/imagens/css.png" />
-        <img src="/imagens/javascript.png" />
-        <img src="/imagens/reactjs.png" />
-        <img src="/imagens/nextjs.png" />
-        <img src="/imagens/git.png" />
-        <img src="/imagens/styled-components.png" />
-        <img src="/imagens/sass.png" />
-      </Carousel>
+      <ul>
+        <li>
+          <img src="/imagens/html.png" />
+        </li>
+        <li>
+          <img src="/imagens/css.png" />
+        </li>
+        <li>
+          <img src="/imagens/javascript.png" />
+        </li>
+        <li>
+          <img src="/imagens/reactjs.png" />
+        </li>
+        <li>
+          <img src="/imagens/nextjs.png" />
+        </li>
+        <li>
+          <img src="/imagens/git.png" />
+        </li>
+        <li>
+          <img src="/imagens/styled-components.png" />
+        </li>
+        <li>
+          <img src="/imagens/sass.png" />
+        </li>
+      </ul>
     </StyledDiv>
   );
 };

@@ -16,7 +16,6 @@ function HomePage() {
       <Conhecimento />
       <Separador text="Projetos" id="projetos" />
       <Card />
-      <Formulario />
     </>
   );
 }
