@@ -6,13 +6,12 @@ const StyledList = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  margin: 50px 0;
 `;
 
 const StyledItem = styled.li`
   margin: 20px;
   width: 350px;
-  height: 230px;
+  height: 300px;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
