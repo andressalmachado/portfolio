@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import Botao from "../Botao";
 import config from "/config.json";
 
 const StyledSobre = styled.section`
-  padding: 40px;
+  padding: 40px 40px 60px;
   margin-top: 100px;
 
   display: flex;
@@ -18,11 +17,22 @@ const StyledSobre = styled.section`
   }
 
   .detalhes {
+    text-align: center;
+
     p {
       padding: 40px;
       line-height: 40px;
       font-size: 20px;
       text-align: justify;
+      margin-bottom: 25px;
+    }
+    a {
+      padding: 20px 30px;
+      border-radius: 56px;
+      font-size: 20px;
+
+      background-color: #502955;
+      color: #fff;
     }
   }
 
@@ -53,11 +63,13 @@ const StyledSobre = styled.section`
 `;
 const Sobre = () => {
   return (
-    <StyledSobre>
+    <StyledSobre id="sobre">
       <img src="https://github.com/andressalmachado.png" />
       <div className="detalhes">
         <p>{config.about}</p>
-        <Botao>Baixar currículo (PT)</Botao>
+        <a href="doc/Andressa Lucia Machado.pdf" target="_blank">
+          Visualizar currículo (PT)
+        </a>
       </div>
     </StyledSobre>
   );
