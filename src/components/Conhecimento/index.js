@@ -30,7 +30,7 @@ const StyledDiv = styled.section`
     ul {
       li {
         img {
-          height: 60px;
+          height: 50px;
         }
       }
     }
