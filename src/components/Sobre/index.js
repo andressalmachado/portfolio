@@ -3,7 +3,7 @@ import config from "/config.json";
 
 const StyledSobre = styled.section`
   padding: 40px 40px 60px;
-  margin-top: 100px;
+  margin-top: 50px;
 
   display: flex;
   align-items: center;
@@ -49,6 +49,7 @@ const StyledSobre = styled.section`
   @media (max-width: 768px) {
     .detalhes {
       p {
+        padding: 20px;
         font-size: 18px;
       }
     }
@@ -56,7 +57,9 @@ const StyledSobre = styled.section`
   @media (max-width: 480px) {
     .detalhes {
       p {
+        padding: 5px;
         font-size: 16px;
+        margin: 60px 0;
       }
     }
   }
