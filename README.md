@@ -1,13 +1,13 @@
-![Banner_Portfolio](https://user-images.githubusercontent.com/31052821/204111591-66f9f3b0-a423-4564-8448-0e02945fbe46.png)
-
+<a href = "https://portfolio-mu-green.vercel.app/" target="_blank"><img src="https://user-images.githubusercontent.com/31052821/218547228-3ee8d708-f557-4b7a-89c9-accdf57bf670.png"></a>
 
 
 # Boas vindas ao meu portfólio!
+Este portfólio tem o intuito de mostrar meus projetos de forma visual e intuitiva ao usuário, com informações sobre minha carreira como desenvolvedora e meios de contato.
 
-⚡Página em constante evolução com minhas informações de contato e projetos.
-<br><br>
+![Banner_Portfolio](https://user-images.githubusercontent.com/31052821/204111591-66f9f3b0-a423-4564-8448-0e02945fbe46.png)
 
-## 📁 Acesso
+
+## 📁 Acesso ao projeto
 [Clicando aqui](https://portfolio-mu-green.vercel.app/), você terá acesso ao meu portólio.
 <br><br>
 
