@@ -8,6 +8,7 @@ const StyledMenu = styled.nav`
   font-size: 20px;
   z-index: 1;
   background-color: #695c85;
+  position: fixed;
 
   img {
     max-width: 30%;
@@ -46,7 +47,7 @@ const StyledMenu = styled.nav`
 const Menu = () => {
   return (
     <StyledMenu>
-      <a href="/">
+      <a href="#home">
         <img src="/imagens/favicon.ico" />
       </a>
       <ul>

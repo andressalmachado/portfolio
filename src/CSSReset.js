@@ -38,7 +38,7 @@ export const CSSReset = createGlobalStyle`
     cursor: pointer;
     &:hover,
     &:focus {
-      opacity: .7;
+      opacity: .8;
     }
   }
   

@@ -17,6 +17,7 @@ const StyledBanner = styled.header`
   align-items: center;
 
   div {
+    margin-top: 64px;
     p {
       font-size: 32px;
     }
@@ -120,7 +121,7 @@ const StyledBanner = styled.header`
 
 const Banner = () => {
   return (
-    <StyledBanner>
+    <StyledBanner id="home">
       <div>
         <p>Boas vindas ao meu portfólio!</p>
         <h1>{config.name}</h1>

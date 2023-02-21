@@ -13,6 +13,10 @@ export default function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter&family=Koulen&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,1,-25"
+        />
       </Helmet>
       <CSSReset />
       <Component {...pageProps} />
