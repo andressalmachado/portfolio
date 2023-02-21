@@ -23,6 +23,8 @@ const StyledSection = styled.section`
   }
   @media (max-width: 900px) {
     ul {
+      justify-content: center;
+
       img {
         height: 40px;
       }
